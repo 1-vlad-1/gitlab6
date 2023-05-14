@@ -20,5 +20,5 @@ def fun():
     c=a ** b / a
 end_time= time.time()
 fun()
-timetaken = end_time - start_time
+timetaken = end_time - start_time # разница времени
 print("Your program takes: ", timetaken)
