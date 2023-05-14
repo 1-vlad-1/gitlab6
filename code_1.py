@@ -4,7 +4,7 @@ capitalize("shop") # [Shop]
 capitalize("python programming") # [Python Programming]
 capitalize("how are you!") # [How Are You!]
 
-def merge(dic1,dic2):
+def merge(dic1,dic2): #функция для слияния словарей
     dic3=dic1.copy()
     dic3.update(dic2)
     return dic3
