@@ -15,8 +15,8 @@ merge(dic1,dic2) # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
 import time
 start_time= time.time()
 def fun():
-    a=2
-    b=3
+    a=6
+    b=7
     c=a+b
 end_time= time.time()
 fun()
